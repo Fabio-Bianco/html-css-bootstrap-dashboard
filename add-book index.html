@@ -80,50 +80,48 @@
     </header>
     <main>
       <div class="container">
-        
-         
             <form class="row g-3">
-              <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Nome Autore</label>
-                <input type="email" class="form-control" id="inputEmail4">
+              <div class="col-6">
+                <label for="inputEmail4" class="form-label fw-semibold">Nome Autore</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Inserisci il nome dell'Autore">
               </div>
-              <div class="col-md-6">
-                <label for="inputPassword4" class="form-label">Cognome autore</label>
-                <input type="password" class="form-control" id="inputPassword4">
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label">Titolo</label>
-                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              <div class="col-6">
+                <label for="inputPassword4" class="form-label fw-semibold">Cognome autore</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Inserisci il cognome dell'Autore">
               </div>
               <div class="col-12">
-                <label for="inputAddress2" class="form-label">Genere</label>
-                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                <label for="inputAddress" class="form-label fw-semibold">Titolo</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Inserisci il titolo del libro">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label fw-semibold">Genere</label>
+                <input type="text" class="form-control" class="form-select" id="inputAddress2" placeholder="scegli il genere">
               </div>
               <div class="col-md-6">
-                <label for="inputCity" class="form-label">Anno di pubblicazione</label>
-                <input type="text" class="form-control" id="inputCity">
+                <label for="inputCity" class="form-label fw-semibold">Anno di pubblicazione</label>
+                <input type="text" class="form-control" id="inputCity" placeholder="Inserisci l'anno">
               </div>
               <div class="col-md-4">
-                <label for="inputState" class="form-label">ISBN</label>
-                <select id="inputState" class="form-select">
-                  <option selected>Choose...</option>
+                <label for="inputState" class="form-label fw-semibold">ISBN#</label>
+                <select id="inputState" class="form-control">
+                  <option selected>Inserisci il codice ISBN#</option>
                   <option>...</option>
                 </select>
               </div>
-              <div class="col-md-2">
-                <label for="inputZip" class="form-label">Zip</label>
-                <input type="text" class="form-control" id="inputZip">
+              <div class="col-lg-12">
+                <label for="inputZip" class="form-label fw-semibold">Note</label>
+                <input type="text" class="form-control" id="inputZip" placeholder="Inserisci eventuali note sul libro">
               </div>
               <div class="col-12">
                 <div class="form-check">
                   <input class="form-check-input" type="checkbox" id="gridCheck">
                   <label class="form-check-label" for="gridCheck">
-                    Check me out
+                    Disponibile anche in digitale
                   </label>
                 </div>
               </div>
               <div class="col-12">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
               </div>
             </form>
           
